@@ -1,0 +1,14 @@
+h1 {
+    background-color: rgb(5, 133, 1);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+.input-group-text {
+    background-color: rgb(5, 133, 1);
+    color: rgb(255, 255, 255);
+}
+
+.form-control {
+    border-color: cornflowerblue;
+}
+
