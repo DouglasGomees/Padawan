@@ -12,4 +12,14 @@
 
   <p *ngIf = "email">{{ email }}@flex.com</p>
 
-  <!-- <p *ngIf="nomeDigitado"> {{ nomeDigitado }}@flex.com</p> -->
+
+  <button type="button" class="btn btn-primary" (click) = "adicionarEmail()">Adicionar e-mail</button>
+
+<div *ngIf = "emailsLocal.length">
+  <p>Lista de Contatos</p>
+  <ul>
+    <li *ngFor="let item of emailsLocal">{{ item }}</li>
+  </ul>
+</div>
+
+
